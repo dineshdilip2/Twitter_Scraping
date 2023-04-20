@@ -16,6 +16,16 @@ eg:({“Scraped Word”            : “Elon Musk”,
   
   
 # Details about Library's and mpodules used in this project:
+## snscrape:
+snscrape is a scraper for social networking services (SNS). It scrapes things like user profiles, hashtags, or searches and returns the discovered items, e.g. the relevant posts. The following services are currently supported: Facebook: user profiles, groups, and communities (aka visitor posts).
+
+## pandas:
+Pandas is an open-source library that is made mainly for working with relational or labeled data both easily and intuitively. It provides various data structures and operations for manipulating numerical data and time series. This library is built on top of the NumPy library. Pandas is fast and it has high performance & productivity for users.
+## pymongo:
+MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, it's popular with development teams using agile methodologies.
+## streamlit:
+Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps. It is a Python-based library specifically designed for machine learning engineers.
+
 
   
   
