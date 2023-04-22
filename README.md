@@ -70,6 +70,7 @@ This is a Python function that uses the `TwitterSearchScraper` class from `twint
 
 5. The function returns the `tweet_data` DataFrame containing the scraped Twitter data.
 ~~~python
+ def scrape_twitter_data(keyword,start_date,end_date,tweet_limit):
     tweets =[]
     
     for tweet in tw.TwitterSearchScraper (f"{keyword} since:{start_date} until:{end_date}").get_items():
@@ -92,10 +93,13 @@ This is a Python function that uses the `TwitterSearchScraper` class from `twint
     tweet_data= pd.DataFrame(tweets,columns=["date","id","url","content",
      "user","reply_count","retweet_count","language","source","like_count"])
     return tweet_data
-  ~~~
+~~~ 
+  
+  
+  
     
     
-  ### Step 5
+### Step 5
   This is a part of a Python script that uses the `streamlit` library to create a web app for the Twitter data scraper. Here's what this code does:
 
 1. The `st.title()` function sets the title of the web app to "Twitter Data scraper".
