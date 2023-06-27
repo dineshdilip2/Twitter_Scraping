@@ -15,7 +15,7 @@ eg:({“Scraped Word”            : “Elon Musk”,
   Social media scraping is one of the best things to happen to researchers looking to gather information about a particular social media platform.With this, you can extract the required data for your analysis while saving your time, effort, and money because bots automate the process. Twitter scraping is easy, as there are numerous Twitter scrapers in the market to pick from.
   
   
-# Details about Library's and mpodules used in this project:
+# Details about Library's and modules used in this project:
 ## snscrape:
 snscrape is a scraper for social networking services (SNS). It scrapes things like user profiles, hashtags, or searches and returns the discovered items, e.g. the relevant posts. The following services are currently supported: Facebook: user profiles, groups, and communities (aka visitor posts).
 
